@@ -1,10 +1,10 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'mydb.cxeos2wmmsqf.us-east-2.rds.amazonaws.com',
-  database: 'supplement',
-  password: 'postgres',
+  user: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',  // create new RDS PostgreSql Database.
+  host: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  database: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   port: 5432,
 });
 
