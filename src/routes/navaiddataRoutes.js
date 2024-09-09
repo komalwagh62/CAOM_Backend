@@ -5,3 +5,5 @@ const navaiddataController = require('../controllers/navaiddataController');
 router.get('/navaiddata', navaiddataController.getNavaidData);
 
 module.exports = router;
+
+
